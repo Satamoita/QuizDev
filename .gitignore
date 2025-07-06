@@ -1,0 +1,18 @@
+# Ignora arquivos grandes e compactados
+*.tar
+*.zip
+*.rar
+*.exe
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+
+# Node e build
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
